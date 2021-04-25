@@ -1,0 +1,145 @@
+@import url(./fonts.css);
+/* start navigation */
+@import url(./partials/_variables.css);
+@import url(./partials/_global.css);
+/* .header-area.main-menu.navbar.navbar-brand{
+    padding:0 8rem 0 5rem;
+}
+.header-area.main-menu.navbar{
+    padding:1rem 59rem;
+} */
+.header_area.main-menu.navbar.navbar-brand
+{
+    padding:0 2rem 0 5rem;
+    
+}
+.header_area.main-menu.navbar
+{
+    padding: 1rem 20 rem;
+
+}
+
+.nav-item
+{
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 600;
+/* padding: 1rem; */
+/* color: black; */
+color:var(--title-color);
+}
+.header_area.main-menu.navbar-nav.active a{
+    background:var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.header_area.main-menu.navbar-nav a:hover{
+    background:var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/* End navigation */
+
+/* Start About Area */
+
+.site-main.about-area{
+    padding: 8rem 5rem;
+}
+.site-main.about-area.about-title h2 > span{
+    display: block;
+    font:normal 49px/60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.project-area
+{
+    text-align: center;
+    text-emphasis-color: blue;
+}
+.project-area.span
+{
+    text-emphasis-color: blue;
+}
+.header-area.header_area.main-menu.navbar
+{
+    background-color: cornflowerblue;
+}
+/* End About Area */
+.mail.button
+{
+    text-align: center;
+}
+.vertical-center {
+
+    text-align:center;
+    
+  }
+  .social.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width:100px;
+  }
+  .social.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+
+  /* Container for skill bars */
+  .containers {
+    width: 100%; /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 5px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .c {width: 90%; background-color:blueviolet;}
+  .java {width: 70%; background-color:plum;} /* Green */
+  .Mysql {width: 70%; background-color:greenyellow;}
+  .html {width: 90%; background-color:cadetblue}
+  .css {width: 90%; background-color:pink;}
+  .Angular{width: 50%; background-color:coral;}
+  .Spring-boot{width:50%; background-color:violet;}

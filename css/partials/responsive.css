@@ -1,0 +1,18 @@
+
+@media only screen and(max-width:340px){
+    .header-area.main-menu.navbar,
+    .header-area.main-menu.navbar.navbar-brand,
+    .site-main.site-banner.site-title,
+    .site-main.about-area.about-image.about-title,
+    .site-main.skills-area.skills-title.skills-image,
+    .site-main.works-area.works-image.works-title,
+    .site-main.Socialmedia.header-area.main-menu.navbar.navbar-nav.nav-item{
+        padding:30%;
+        margin:5%;
+    }
+    .site-main.Socialmedia.header-area.main-menu.navbar.navbarNav.navbar-nav.nav-item{
+        width:2px;
+        height: auto;
+    }
+
+}
